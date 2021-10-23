@@ -1,7 +1,10 @@
+#include <stdio.h>
+#include <netdb.h>
 #include <sys/socket.h>
 #include <strings.h>
 #include <string.h>
 #include <unistd.h>
+
 
 extern int h_errno;
 
